@@ -8,3 +8,6 @@ class Device:
 
     def __init__(self):
         logging.debug("initializing device")
+        self.name = ""
+        self.address = ""
+        self.family = ""

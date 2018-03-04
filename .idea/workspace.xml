@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0166004-f828-46ab-8f8a-ac9bc47d51b8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/device.py" afterPath="$PROJECT_DIR$/server/device.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mother.py" afterPath="$PROJECT_DIR$/server/mother.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mother.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mother.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/mother.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" column="78" lean-forward="true" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+              <caret line="10" column="78" lean-forward="false" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="device.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="device.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/device.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="216">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -52,8 +53,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mother.py" />
-        <option value="$PROJECT_DIR$/server/device.py" />
         <option value="$PROJECT_DIR$/server/mother.py" />
+        <option value="$PROJECT_DIR$/server/device.py" />
       </list>
     </option>
   </component>
@@ -162,18 +163,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/device.py">
+    <entry file="file://$PROJECT_DIR$/server/mother.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="180">
+          <caret line="10" column="78" lean-forward="false" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/mother.py">
+    <entry file="file://$PROJECT_DIR$/server/device.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="78" lean-forward="true" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+        <state relative-caret-position="216">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>
