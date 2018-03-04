@@ -8,4 +8,7 @@ logging.basicConfig(filename="mother.log", level=logging.DEBUG, format='%(asctim
 class Server:
 
     def __init__(self):
-        logging.debug("starting mother")
+        logging.debug("starting mother, setting name, address, family to '' ")
+        self.name = ""
+        self.address = ""
+        self.family = ""
