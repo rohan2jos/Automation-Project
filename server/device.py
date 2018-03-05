@@ -1,7 +1,7 @@
 import logging
 
 # set up basic logging
-logging.basicConfig(filename="device.log", level=logging.DEBUG, format='%(asctime)s %(funcName)5s() %(levelname)s:  %(message)s', datefmt='%I:%M:%S %p')
+#logging.basicConfig(filename="logs/device.log", level=logging.DEBUG, format='%(asctime)s %(module)s: %(funcName)5s() %(levelname)s:  %(message)s', datefmt='%I:%M:%S %p')
 
 
 class Device:

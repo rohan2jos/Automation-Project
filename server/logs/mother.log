@@ -1,0 +1,3 @@
+06:53:50 PM mother: __init__() DEBUG:  starting mother, setting name, address, family to '' 
+06:53:50 PM mother: __init__() DEBUG:  initializing database handler
+06:53:50 PM DatabaseHandler: __init__() DEBUG:  [DatabaseHandler] initializing the database handler
