@@ -25,6 +25,7 @@ class Server:
         logging.debug("starting mother, setting name, address, family to '' ")
         logging.debug("initializing database handler")
         self.databasehandler = DatabaseHandler()
+        logging.debug("initializing self.devices to empty list")
         self.devices = []
 
     def contact_db(self):
