@@ -1,7 +1,9 @@
-06:53:50 PM mother: __init__() DEBUG:  starting mother, setting name, address, family to '' 
-06:53:50 PM mother: __init__() DEBUG:  initializing database handler
-06:53:50 PM DatabaseHandler: __init__() DEBUG:  [DatabaseHandler] initializing the database handler
-06:59:07 PM mother: __init__() DEBUG:  starting mother, setting name, address, family to '' 
-06:59:07 PM mother: __init__() DEBUG:  initializing database handler
-06:59:07 PM DatabaseHandler: __init__() DEBUG:  [DatabaseHandler] initializing the database handler
-06:59:07 PM mother: __init__() DEBUG:  initializing self.devices to empty list
+07:26:13 PM mother: __init__() DEBUG:  starting mother, setting name, address, family to '' 
+07:26:13 PM mother: __init__() DEBUG:  initializing database handler
+07:26:13 PM DatabaseHandler: __init__() DEBUG:  [DatabaseHandler] initializing the database handler
+07:26:13 PM DatabaseHandler: open_values() DEBUG:  reading from server_values.yaml
+07:26:13 PM DatabaseHandler: open_values() DEBUG:  server_values.yaml present
+07:26:13 PM DatabaseHandler: validate_values() DEBUG:  checking mongo_instance in file_transfer_values.yaml
+07:26:13 PM DatabaseHandler: validate_values() DEBUG:  checking mongo_database in file_transfer_values.yaml
+07:26:13 PM DatabaseHandler: startup() DEBUG:  server_values.yaml has been opened, validated and registered
+07:26:13 PM mother: __init__() DEBUG:  initializing self.devices to empty list

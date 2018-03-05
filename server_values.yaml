@@ -1,0 +1,4 @@
+
+# section for mongodb
+mongo_instance: "localhost: 27017"
+mongo_database: "apdata"

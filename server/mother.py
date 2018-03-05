@@ -22,6 +22,9 @@ logging.basicConfig(filename="logs/mother.log", level=logging.DEBUG, format='%(a
 class Server:
 
     def __init__(self):
+        print("STARTING...")
+        print("startup process, will be notified when startup is successful")
+        print("\n")
         logging.debug("starting mother, setting name, address, family to '' ")
         logging.debug("initializing database handler")
         self.databasehandler = DatabaseHandler()
