@@ -24,6 +24,7 @@ class Server:
     def __init__(self):
         print("STARTING...")
         print("startup process, will be notified when startup is successful")
+        print("startup will open connection to mongodb, if not successful, server will crash")
         print("\n")
         logging.debug("starting mother, setting name, address, family to '' ")
         logging.debug("initializing database handler")
@@ -31,7 +32,5 @@ class Server:
         logging.debug("initializing self.devices to empty list")
         self.devices = []
 
-    def contact_db(self):
-        logging.debug("opening connection to mongo db")
 
 server = Server()
