@@ -22,7 +22,8 @@ class DatabaseHandler:
         self.startup()
         logging.debug("attempting to open connection to database")
         self.client = MongoClient(self.values_dict['mongo_instance'])
-        self.db = self.client.apdata
+        dbname = self.values_dict['mongo_database']
+        self.db = self.client[dbname]
 
     def startup(self):
         self.open_values()
